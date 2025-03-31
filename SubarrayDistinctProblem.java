@@ -5,10 +5,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 //Number of subarrays whose count of distinct number <= K
+
+
+
 public class SubarrayDistinctProblem {
     public static void main(String[] args) {
-int [] b ={1,2,3,4,5,6};
-int k=2;
+int [] b ={8,2,4,7};
+int k=4;
     int count = 0;
     int sum = 0;
     Map<Integer, Integer> g = new HashMap<>();
